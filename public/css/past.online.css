@@ -1,0 +1,94 @@
+body{
+    text-align: center;
+}
+
+.event{
+    margin-top: 150px;
+    padding-bottom: 50px;
+}
+
+.event-pic img{
+    width: 100%;
+    max-width: 800px;
+    /* border-radius: 5px; */
+}
+
+.event img{
+    padding: 50px;
+}
+
+body{
+    position: relative;
+}
+
+.footer{
+    position: absolute !important;
+    bottom: 0 !important;
+}
+
+/* join us */
+
+.date{
+    font-size: 1.5em;
+    padding-top: 50px;
+}
+
+.join-us{
+    display: flex;
+    justify-content: center;
+}
+
+.join-us img{
+    border-radius: 50px !important;
+}
+
+.detail{
+    text-align: left;
+    padding: 50px;
+}
+
+/* こんな人に来て欲しい */
+
+.come{
+    display: flex;
+    justify-content: center;
+}
+
+.come h2{
+    padding: 60px;
+}
+
+.come-detail{
+    text-align: left;
+    padding: 30px;
+}
+
+@media (min-width: 0px) and (max-width: 799px) {
+    .join-us, .come{
+        display: inline;
+    }
+    .detail, .come-detail{
+        text-align: center;
+    }
+}
+@media (min-width: 0px) and (max-width: 599px) {
+    .logo{
+        padding: 25px;
+        top: 0;
+    }.topic{
+        padding-top: 100px;
+    }
+    .back{
+        font-size: 4vw;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 399px) {
+    .join-us img{
+        width: 100%;
+        height: 100%;
+    }
+    p{
+        font-size: 4vw;
+    }
+}

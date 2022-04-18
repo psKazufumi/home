@@ -1,0 +1,54 @@
+.footer{
+    position: absolute;
+    bottom: 0s;
+}
+
+/* body */
+
+body{
+    padding-top: 150px;
+}
+
+.schedule{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.day,.e-name,.place,.time{
+    width: 250px;
+    text-align: left;
+}
+
+.schedule.e-name{
+    font-size: initial !important;
+    width: 300px !important;
+    line-height: inherit;
+}
+
+.time p{
+    padding-bottom: 7px;
+}
+
+.smp{
+    display: none;
+}
+
+@media (min-width: 0px) and (max-width: 949px) {
+    .schedule{
+        display: none;
+    }
+    .smp{
+        display: inline;
+    }
+}
+@media (min-width: 0px) and (max-width: 599px) {
+    .logo{
+        padding: 25px;
+        top: 0;
+    }.topic{
+        padding-top: 100px;
+    }
+    .back{
+        font-size: 4vw;
+    }
+}

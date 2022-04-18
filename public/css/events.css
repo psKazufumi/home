@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.event{
+    font-family: 'Caveat', cursive;
+}
+
+.event img{
+    width: 450px;
+    height: 450px;
+    border-radius: 60px;
+    cursor: pointer;
+    box-shadow: rgba(133, 129, 153, 0.15) 0px 48px 100px 0px;
+}
+
+.osaka,.kyoto,.hyogo,.online{
+    margin: 50px;
+}
+
+.osaka,.kyoto,.hyogo,.online{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: 250px;
+    top: 50px;
+    overflow: hidden;
+    border-radius: 60px;
+}
+
+.kyoto, .online{
+    top: -50px;
+    left: initial;
+    right: -750px;
+}
+
+.hyogo{
+    top: -200px;
+    left: 80px;
+}
+
+.online{
+    top: -450px;  
+    right: -850px; 
+}
+
+.osaka p, .kyoto p, .hyogo p, .online p{
+    margin: 0;
+    border-radius: 60px;
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:	rgba(0,0,0,0.2);
+    color: white;
+    -webkit-transition:	all 0.8s ease;
+    transition:		all 0.8s ease;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.osaka p:hover,
+.kyoto p:hover,
+.hyogo p:hover,
+.online p:hover
+{
+    opacity: 1;
+    padding-top: 80px;
+}
+
+.event{
+    position: relative;
+}
+
+/* .back{
+    width: 1000px;
+    height: 400px;
+    background-color: orange;
+    position: absolute;
+    top: 900px;
+    z-index: -100;
+    opacity: .4;
+} */

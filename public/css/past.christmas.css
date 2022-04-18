@@ -1,0 +1,21 @@
+.event{
+    padding-top: 150px;
+}
+
+.event img{
+    padding: 100px;
+    width: 80%;
+    height: auto;
+}
+
+.event h1{
+    padding-bottom: 50px;
+}
+
+.come{
+    padding-bottom: 100px;
+}
+.detail{
+    padding: 50px;
+    line-height: 50px;
+}

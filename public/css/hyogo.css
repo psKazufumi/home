@@ -1,0 +1,49 @@
+/* body */
+
+.event-detail{
+    margin-top: 150px;
+}
+
+.schedule{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.schedule.day,.schedule.name,.schedule.place,.schedule.time{
+    text-align: left;
+    width: 200px;
+}
+
+.time p{
+    padding-bottom: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 699px) {
+    .schedule{
+        padding: initial;
+        display: initial;        
+        width: 100%;
+    }
+    .day, .name, .place, .time{
+        display: flex;
+        margin-left: 30%;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 0px) and (max-width: 599px) {
+    .logo{
+        padding: 25px;
+        top: 0;
+    }.topic{
+        padding-top: 100px;
+    }
+    .back{
+        font-size: 4vw;
+    }
+}
+
+.none{
+    padding-top: 250px;
+    padding-bottom: 250px;
+    font-size: 30px;
+}
